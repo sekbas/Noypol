@@ -1,3 +1,4 @@
+@import "variables.scss";
 @media (max-width:598px){
     #desk-links{
         display: none;
@@ -91,17 +92,10 @@
     }
 }
 @media (max-width:320px) {
-    .populated {border: solid;
-    border-color: #1e1e1e;
-    width: 350px;
-    height: 450px;
-    border-radius: 10px;
-    margin: 0 35px 20px 35px;
+    .banner-img {
+        @include size(100vw, 300px);
     }
-    .cuadro-productos{
-        width: 170px;
-        height: 170px;
-        margin: 95px 0 0 35px
+    .banner-container {
+        @include size(100vw, 300px);
     }
-
 }
