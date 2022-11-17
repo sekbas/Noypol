@@ -371,6 +371,13 @@ footer {
   width: 95%;
   margin-left: auto; }
 
+.texto {
+  color: black; }
+
+.button-enviar {
+  color: white;
+  background-color: #3A6324; }
+
 @media (max-width: 598px) {
   #desk-links {
     display: none; }

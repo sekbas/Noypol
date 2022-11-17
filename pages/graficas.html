@@ -19,80 +19,41 @@
 <body>
     <header>
         <div class="topnav grid-container">
-            <span id="fixtitl"><a href="../index.html"><img src="../images/utech-01.png" alt=""></a></span>
-            <ul class="nav-links" id="desk-links">
-                <li><a href="./graficas.html" class="btnanim">Graficas</a></li>
-                <li><a href="./perifericos.html" class="btnanim">Perifericos</a></li>
-                <li><a href="./monitores.html" class="btnanim">Monitores</a></li>
-            </ul>
-            <nav class="navbar navbar-expand-sm navbar-dark nav-links">
-                <div class="container-fluid navbar--fix">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./graficas.html">Graficas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./perifericos.html">Perifericos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./monitores.html">Monitores</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+          <span id="fixtitl"
+            ><a href="../index.html"><h2>Noypol</h2></a></span
+          >
+          <ul class="nav-links" id="desk-links">
+            <li>
+              <a
+                href="https://1drv.ms/b/s!ArkvHRXQFvfagW2LrEDy-DhCUBNt?e=30oPoo"
+                class="btnanim"
+                >Registro</a
+              >
+            </li>
+          </ul>
         </div>
-    </header>
-    <main>
+      </header>
+      <main>
         <div>
-            <h1 class="titulo--categoria">Graficas</h1>
-            <form action="GET" class="form--cat">
-            <h3 class="subtitulo--categoria">Marca</h3>
-                <div><input type="radio" name="graficas" value="NVIDIA" /><span>Nvidia</span></div>
-                <div><input type="radio" name="graficas" value="AMD" /><span>Amd</span></div>
-                <h3 class="subtitulo--categoria">Modelo</h3>
-                <div><input type="radio" name="modelo" value="GT 210"><span>Gt 210</span></div>
-                <div><input type="radio" name="modelo" value="GTX 1050"><span>Gtx 1050</span></div>
-                <div><input type="radio" name="modelo" value="GTX 1660"><span>Gtx 1660</span></div>
+            <h2 class="titulo--categoria">Preguntas!</h2>
+            <form class="form--cat">
+                <h3 class="subtitulo--categoria">De que gusto te gustaría que hicieramos?</h3>
+                    <div><input type="radio" name="marca" value="Frutilla" /><span>Frutilla</span></div>
+                    <div><input type="radio" name="marca" value="Durazno" /><span>Durazno</span></div>
+                    <div><input type="radio" name="marca" value="Pera" /><span>Pera</span></div>
+                    <div><input type="radio" name="marca" value="Otros" /><span>Otro</span></div>
+                    <h3 class="subtitulo--categoria">Te gustaría algún tipo de premio al comprar?</h3>
+                    <div><input type="radio" name="tipo-perf" value="Si"><span>Si</span></div>
+                    <div><input type="radio" name="tipo-perf" value="No"><span>No</span></div>
+                    <h3>Si la respuesta fue sí, argumente</h3>
+                    <div><input type="text" name="premio" class="texto"></div>
+                    <h3>Dejanos Alguna Reseña!</h3>
+                    <div><input type="text" size="30" class="texto"></div>
+                    <input type="submit" value="Enviar" class="button-enviar">
             </form>
-            
-        </div>
-        <div class="flex-container cat">
-            <div class="populated">
-                <a href="./out-of-stock.html">
-                    <img src="../images/grafica.jpeg" alt="Grafica RTX 3070 Geforce" class="cuadro-productos">
-                    <h2 class="titulo-precio">Grafica RTX 3070 Geforce</h2>
-                    <span class="precio">$280.000,00</span>
-                    <h3 class="btnanim posbuy btnbuy">Comprar</h3>
-                </a>
-        
-            </div>
-            <div class="populated">
-                <a href="./out-of-stock.html">
-                    <img src="../images/rx-6600xt.jpg" alt="RX 6600 XT" class="cuadro-productos">
-                    <h2 class="titulo-precio">Grafica RX 6600 XT Rog</h2>
-                    <span class="precio">$60.000,00</span>
-                    <h3 class="btnanim posbuy btnbuy">Comprar</h3>
-                </a>
-        
-            </div>
-            <div class="populated">
-                <a href="./out-of-stock.html">
-                    <img src="../images/rtx-2080ti.jpg" alt="RTX 2080 Ti" class="cuadro-productos">
-                    <h2 class="titulo-precio">Grafica RTX 2080 Ti EVGA</h2>
-                    <span class="precio">$180.000,00</span>
-                    <h3 class="btnanim posbuy btnbuy">Comprar</h3>
-                </a>
-        
-            </div>
-        </div>
 
-    </main>
+        </div>
+      </main>
     <footer class="flex-container">
         <div class="author">
             <p>UTECH|Todos los derechos reservados</p>
